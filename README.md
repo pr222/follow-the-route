@@ -19,3 +19,7 @@ You should create a web application that meets the following:
    3. GET `/products/new` - a view should be rendered with a simple HTML form that should be displayed. The form should have a button that posts the form to the URL described in point 4.4.
    4. POST `/products/create` - a function should be called that saves the form data and redirects the client to the URL `/products`.
 5. The server must respond with a custom page if a page is not found (404) or if there is an internal server error (500). The response must also have the appropriate status code set.
+
+## Example
+
+![example](.readme/example.png)

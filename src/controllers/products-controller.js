@@ -51,7 +51,7 @@ export class ProductsController {
     // If no product is found send a 404 (resource not found).
     if (!product) {
       const error = new Error('Not Found')
-      error.statusCode = 404
+      error.status = 404
 
       // IMPORTANT! Never throw an exception in an async action handler,
       // always call next!
